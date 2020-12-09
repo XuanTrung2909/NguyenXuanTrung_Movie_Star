@@ -1,0 +1,17 @@
+/* heaeder  */
+
+@media (max-width: 992px){
+    .header__top p,
+    .header__top i{
+        font-size: 13px;
+    }
+    nav > a img{
+        width: 150px;
+    }
+    nav ul li{
+        padding: 0 10px !important;
+    }
+    nav ul li a{
+        font-size: 13px;
+    }
+}
