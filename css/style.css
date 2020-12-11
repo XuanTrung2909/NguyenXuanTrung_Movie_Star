@@ -47,15 +47,15 @@ header nav li:hover a::after{
 /* carousel */
 
 .item1{
-    background-image: url(/img/hero-1.jpg);
+    background-image: url(./../img/hero-1.jpg);
     
 }
 .item2{
-    background-image: url(/img/hero-2.jpg);
+    background-image: url(./../img/hero-2.jpg);
     
 }
 .item3{
-    background-image: url(/img/hero-3.jpg);
+    background-image: url(./../img/hero-3.jpg);
     
 }
 .carousel-item{
