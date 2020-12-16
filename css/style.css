@@ -290,3 +290,37 @@ header nav li:hover a::after{
     background: transparent;
     font-size: 30px;
 }
+
+
+/* time  */
+
+#time ul li a{
+    color: black;
+    font-size: 20px;
+}
+#time ul li{
+    position: relative;
+    padding: 15px;
+}
+#time ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: linear-gradient(to right, #fbbd61, #ec7532);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all 0.5s;
+}
+#time ul li a.active::after{
+    width: 100%;
+}
+#time .nav-pills .nav-link.active, #time .nav-pills .show>.nav-link{
+    background-color: transparent;
+}
+#time ul li:hover a::after{
+    width: 100%;
+}
+#time ul li a.active{
+    color: #ec7532;
+}
