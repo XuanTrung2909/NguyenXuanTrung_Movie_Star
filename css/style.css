@@ -294,13 +294,17 @@ header nav li:hover a::after{
 
 /* time  */
 
+#time ul{
+    border-bottom: 1px solid #80808047;
+}
 #time ul li a{
     color: black;
     font-size: 20px;
+    padding: 0;
 }
 #time ul li{
     position: relative;
-    padding: 15px;
+    padding: 30px;
 }
 #time ul li a::after{
     content: '';
