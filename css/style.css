@@ -88,6 +88,7 @@ header nav li:hover a::after{
     border: 2px solid white;
     border-radius: 50%;
     display: inline-block;
+    margin-right: 20px;
 }
 .carousel__text a{
     text-decoration: none;
@@ -179,7 +180,10 @@ header nav li:hover a::after{
 
 #new__in{
     padding: 50px 0;
+}
+#new__in .container{
     position: relative;
+    padding: 0 50px;
 }
 .new__in__title{
     color: #ec7532;
@@ -267,7 +271,7 @@ header nav li:hover a::after{
 #new__in .slide-prev{
     position: absolute;
     top: 50%;
-    left: 18%;
+    left: 0;
     border: none;
     outline: none;
     cursor: pointer;
@@ -278,7 +282,7 @@ header nav li:hover a::after{
 #new__in .slide-next{
     position: absolute;
     top: 50%;
-    right: 18%;
+    right: 0;
     border: none;
     outline: none;
     cursor: pointer;
