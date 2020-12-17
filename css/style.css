@@ -374,7 +374,7 @@ header nav li:hover a::after{
     border-radius: 10px;
     font-size: 13px;
 }
-.time__item .row .row .col-md-4{
+.time__item .row .row .col-md-3{
     text-align: right;
 }
 .time__item .time__item__thoi__luong{

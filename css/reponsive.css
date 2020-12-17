@@ -36,6 +36,12 @@
    .time__item button{
        width: 50px;
    }
+   .time__item .time__item__the__loai{
+       margin-top: 20px;
+   }
+   .time__item .row .row .col-md-3{
+    text-align: left;
+    }
 }
 @media (max-width: 424px){
     #time ul li{
@@ -46,6 +52,7 @@
     }
     .time__item .time__item__the__loai{
         font-size: 14px;
+        margin-top: 20px;
     }
     .time__item h1{
         font-size: 22px;
@@ -65,7 +72,7 @@
         margin-bottom: 10px;
         font-size: 11px;
     }
-}
-@media (max-width: 320px){
-    
+    .time__item .row .row .col-md-3{
+        text-align: left;
+    }
 }
