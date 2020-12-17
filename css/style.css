@@ -88,7 +88,7 @@ header nav li:hover a::after{
     border: 2px solid white;
     border-radius: 50%;
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 .carousel__text a{
     text-decoration: none;
@@ -97,7 +97,7 @@ header nav li:hover a::after{
     width: 200px;
     border-radius: 30px;
     background: linear-gradient(to right, #fbbd61, #ec7532);
-    display: inline-block;
+    display: inline-table;
     text-align: center;
     line-height: 50px;
     letter-spacing: 4px;
