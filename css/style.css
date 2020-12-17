@@ -328,3 +328,67 @@ header nav li:hover a::after{
 #time ul li a.active{
     color: #ec7532;
 }
+
+.time__item{
+    border-bottom: 1px solid #80808047;
+    padding: 30px 0;
+}
+.time__item img{
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+}
+.time__item .time__item__the__loai{
+    color: #ec7532;
+    margin: 0;
+}
+.time__item h1{
+    font-weight: 200;
+    font-size: 30px;
+}
+.time__item .time__item__mo__ta{
+    color: gray;
+    font-weight: 300;
+    
+}
+.time__item a{
+    color: #ec7532;
+    display: block;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+    font-size: 13px;
+}
+.time__item a:hover{
+    text-decoration: none;
+    
+}
+.time__item span{
+    font-size: 13px;
+}
+.time__item button{
+    width: 60px;
+    height: 40px;
+    background-color: #80808047;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 13px;
+}
+.time__item .row .row .col-md-3{
+    text-align: right;
+}
+.time__item .time__item__thoi__luong{
+    color: gray;
+    display: inline-block;
+}
+.time__item .time__item__cc{
+    color: white;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: gray;
+    ;
+    border-radius: 50%;
+}

@@ -33,6 +33,15 @@
     #time ul li a{
         font-size: 15px;
     }
+   .time__item button{
+       width: 50px;
+   }
+   .time__item .time__item__the__loai{
+       margin-top: 20px;
+   }
+   .time__item .row .row .col-md-3{
+    text-align: left;
+    }
 }
 @media (max-width: 424px){
     #time ul li{
@@ -40,5 +49,30 @@
     }
     #time ul li a{
         font-size: 13px;
+    }
+    .time__item .time__item__the__loai{
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .time__item h1{
+        font-size: 22px;
+    }
+    .time__item .time__item__mo__ta{
+        font-size: 14px;
+    }
+    .time__item a{
+        font-size: 11px;
+    }
+    .time__item .time__item__view{
+        display: block;
+        margin-bottom: 5px;
+        font-size: 11px;
+    }
+    .time__item button{
+        margin-bottom: 10px;
+        font-size: 11px;
+    }
+    .time__item .row .row .col-md-3{
+        text-align: left;
     }
 }
