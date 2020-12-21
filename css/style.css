@@ -268,7 +268,7 @@ header nav li:hover a::after{
 .new__in__item__title i{
     color: #ec7532;
 }
-#new__in .slide-prev{
+#new__in .newin-slide-prev{
     position: absolute;
     top: 50%;
     left: 0;
@@ -279,7 +279,7 @@ header nav li:hover a::after{
     background: transparent;
     font-size: 30px;
 }
-#new__in .slide-next{
+#new__in .newin-slide-next{
     position: absolute;
     top: 50%;
     right: 0;
@@ -405,7 +405,6 @@ header nav li:hover a::after{
     background-size: cover;
     background-position: center;
     color:white;
-    padding: ;
 }
 .coming .coming__content h2{
     border-bottom: 1px solid #3a3a3a;
